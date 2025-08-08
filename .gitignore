@@ -1,0 +1,33 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+fsae-dashboard-env/
+env/
+venv/
+*.env
+*.venv
+
+# Streamlit
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Log and generated data files
+*.log
+data/sample_log.csv
+data/Logged-data/
+data/Live-data/*.log
+
+# Installer/build artifacts
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
